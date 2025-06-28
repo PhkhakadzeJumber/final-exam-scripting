@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "brand": "lui-viton",
+    "name": "Futuristic Holographic Soccer Cleats",
+    "category": "kids",
+    "sizes": [
+      "xS",
+      "M",
+      "L"
+    ],
+    "price": 20,
+    "images": [
+      "https://i.imgur.com/qNOjJje.jpeg",
+      "https://i.imgur.com/NjfCFnu.jpeg",
+      "https://i.imgur.com/eYtvXS1.jpeg"
+    ],
+    "description": "Step onto the field and stand out from the crowd with these eye-catching holographic soccer cleats. Designed for the modern player, these cleats feature a sleek silhouette, lightweight construction for maximum agility, and durable studs for optimal traction. The shimmering holographic finish reflects a rainbow of colors as you move, ensuring that you'll be noticed for both your skills and style. Perfect for the fashion-forward athlete who wants to make a statement."
+  },
+  {
+    "id": 2,
+    "brand": "pollo",
+    "name": "Chic Summer Denim Espadrille Sandals",
+    "category": "woman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "price": 40,
+    "images": [
+      "https://i.imgur.com/9qrmE1b.jpeg",
+      "https://i.imgur.com/wqKxBVH.jpeg",
+      "https://i.imgur.com/sWSV6DK.jpeg"
+    ],
+    "description": "Step into summer with style in our denim espadrille sandals. Featuring a braided jute sole for a classic touch and adjustable denim straps for a snug fit, these sandals offer both comfort and a fashionable edge. The easy slip-on design ensures convenience for beach days or casual outings."
+  },
+  {
+    "id": 3,
+    "brand": "H&M",
+    "name": "Orange & Blue Sneakers",
+    "category": "kids",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "price": 80,
+    "images": [
+      "https://i.imgur.com/hKcMNJs.jpeg",
+      "https://i.imgur.com/NYToymX.jpeg",
+      "https://i.imgur.com/HiiapCt.jpeg"
+    ],
+    "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear."
+  },
+  {
+    "id": 4,
+    "brand": "Adidas",
+    "name": "Rainbow Glitter High Heels",
+    "category": "woman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "price": 90,
+    "images": [
+      "https://i.imgur.com/62gGzeF.jpeg",
+      "https://i.imgur.com/5MoPuFM.jpeg",
+      "https://i.imgur.com/sUVj7pK.jpeg"
+    ],
+    "description": "Step into the spotlight with these eye-catching rainbow glitter high heels. Designed to dazzle, each shoe boasts a kaleidoscope of shimmering colors that catch and reflect light with every step. Perfect for special occasions or a night out, these stunners are sure to turn heads and elevate any ensemble."
+  },
+  {
+    "id": 5,
+    "brand": "Unknown Brand",
+    "name": "Vibrant Pink Classic Sneakers",
+    "category": "woman",
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "price": 12,
+    "images": [
+      "https://i.imgur.com/mcW42Gi.jpeg",
+      "https://i.imgur.com/mhn7qsF.jpeg",
+      "https://i.imgur.com/F8vhnFJ.jpeg"
+    ],
+    "description": "Step into style with our Vibrant Pink Classic Sneakers! These eye-catching shoes feature a bold pink hue with iconic white detailing, offering a sleek, timeless design. Constructed with durable materials and a comfortable fit, they are perfect for those seeking a pop of color in their everyday footwear. Grab a pair today and add some vibrancy to your step!"
+  },
+  {
+    "id": 6,
+    "brand": "Gucci",
+    "name": "Leather Peep-Toe Pumps",
+    "category": "woman",
+    "sizes": [
+      "S",
+      "L"
+    ],
+    "price": 53,
+    "images": [
+      "https://i.imgur.com/AzAY4Ed.jpeg",
+      "https://i.imgur.com/umfnS9P.jpeg",
+      "https://i.imgur.com/uFyuvLg.jpeg"
+    ],
+    "description": "Step into sophistication with these chic peep-toe pumps, showcasing a lustrous patent leather finish and an eye-catching gold-tone block heel. The ornate buckle detail adds a touch of glamour, perfect for elevating your evening attire or complementing a polished daytime look."
+  },
+  {
+    "id": 7,
+    "brand": "Unknown Brand",
+    "name": "Elegant Purple Leather Loafers",
+    "category": "man",
+    "sizes": [
+      "xS",
+      "M",
+      "L"
+    ],
+    "price": 17,
+    "images": [
+      "https://i.imgur.com/Au8J9sX.jpeg",
+      "https://i.imgur.com/gdr8BW2.jpeg",
+      "https://i.imgur.com/KDCZxnJ.jpeg"
+    ],
+    "description": "Step into sophistication with our Elegant Purple Leather Loafers, perfect for making a bold statement. Crafted from high-quality leather with a vibrant purple finish, these shoes feature a classic loafer silhouette that's been updated with a contemporary twist. The comfortable slip-on design and durable soles ensure both style and functionality for the modern man."
+  },
+  {
+    "id": 8,
+    "brand": "Nike",
+    "name": "Futuristic High-Top Sneakers",
+    "category": "man",
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "price": 68,
+    "images": [
+      "https://i.imgur.com/npLfCGq.jpeg",
+      "https://i.imgur.com/vYim3gj.jpeg",
+      "https://i.imgur.com/HxuHwBO.jpeg"
+    ],
+    "description": "Step into the future with this eye-catching high-top sneaker, designed for those who dare to stand out. The sneaker features a sleek silver body with striking gold accents, offering a modern twist on classic footwear. Its high-top design provides support and style, making it the perfect addition to any avant-garde fashion collection. Grab a pair today and elevate your shoe game!"
+  },
+  {
+    "id": 9,
+    "brand": "Adidas",
+    "name": "Blue Suede Shoes",
+    "category": "man",
+    "sizes": [
+      "M"
+    ],
+    "price": 39,
+    "images": [
+      "https://i.imgur.com/sC0ztOB.jpeg",
+      "https://i.imgur.com/Jf9DL9R.jpeg",
+      "https://i.imgur.com/R1IN95T.jpeg"
+    ],
+    "description": "Step into comfort with our Classic Blue Suede Casual Shoes, perfect for everyday wear. These shoes feature a stylish blue suede upper, durable rubber soles for superior traction, and classic lace-up fronts for a snug fit. The sleek design pairs well with both jeans and chinos, making them a versatile addition to any wardrobe."
+  },
+  {
+    "id": 10,
+    "brand": "Gucci",
+    "name": "Futuristic Chic High-Heel Boots",
+    "category": "woman",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "price": 36,
+    "images": [
+      "https://i.imgur.com/HqYqLnW.jpeg",
+      "https://i.imgur.com/RlDGnZw.jpeg",
+      "https://i.imgur.com/qa0O6fg.jpeg"
+    ],
+    "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement."
+  }
+]

@@ -1,0 +1,169 @@
+.navbar {
+    background: white;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-height: 60px;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.category-link {
+    color: #1D1F22;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-bottom 0.2s;
+    background: none;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.category-link:hover {
+    color: #5ECE7B;
+}
+
+.active-link {
+    color: #5ECE7B;
+    border-bottom: 2px solid #5ECE7B;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 60px;
+}
+
+.logo-square {
+    width: 40px;
+    height: 40px;
+    background-color: #5ECE7B;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(94, 206, 123, 0.15);
+}
+
+.logo-icon {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    min-height: 60px;
+}
+
+.currency-dropdown-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.currency-dropdown {
+    background: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 28px 6px 10px;
+    font-size: 15px;
+    color: #1D1F22;
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+    margin-right: 0.5rem;
+    appearance: none;
+    font-family: inherit;
+    font-weight: 500;
+    position: relative;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.currency-dropdown:focus {
+    border: 1.5px solid #5ECE7B;
+}
+
+.currency-dropdown-wrapper::after {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 6px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,<svg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L5 5L9 1' stroke='%231D1F22' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.cart-icon-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    height: 32px;
+}
+
+.cart-item-count-circle {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #1D1F22;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border: 2px solid white;
+    z-index: 1;
+}
+
+/* Remove default select arrow for consistency with design */
+.currency-dropdown::-ms-expand {
+    display: none;
+}
+.currency-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
