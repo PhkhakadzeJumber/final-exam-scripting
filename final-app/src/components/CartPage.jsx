@@ -15,7 +15,7 @@ function CartPage() {
       const updatedCart = prevCart.map((item, i) =>
         i === ind ? { ...item, quantity: item.quantity + changeAmount } : item
       );
-      return updatedCart.filter(item => item.quantity > 0); // if 0 remove from cart
+      return updatedCart.filter(item => item.quantity > 0); 
     });
   };
 
