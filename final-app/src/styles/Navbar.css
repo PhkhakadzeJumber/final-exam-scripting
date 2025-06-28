@@ -158,10 +158,10 @@
     z-index: 1;
 }
 
-/* Remove default select arrow for consistency with design */
 .currency-dropdown::-ms-expand {
     display: none;
 }
+
 .currency-dropdown {
     -webkit-appearance: none;
     -moz-appearance: none;
