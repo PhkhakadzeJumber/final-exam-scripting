@@ -19,19 +19,17 @@ function CartPage() {
     });
   };
 
-  const handleImageNav = (idx, dir) => {
+  const handleImageNav = (itemIndex, dir) => {
+    console.log(cart);
     setCart(prevCart => prevCart.map((item, i) => {
-      if(i !== idx) 
+      if (i !== itemIndex) 
         return item;
-      
+
       const len = item.product.images.length;
-      let newIdx = item.imageIdx + dir;
-      
-      if(newIdx < 0) 
-        newIdx = len - 1;
-      if(newIdx >= len) 
-        newIdx = 0;
-      
+      const currentImageIdx = item.imageIdx || 0;
+
+      let newIdx = (currentImageIdx + dir + len) % len;
+
       return { ...item, imageIdx: newIdx };
     }));
   };
@@ -55,8 +53,8 @@ function CartPage() {
         <div className="cart-container">
           <h1 className="cart-title">CART</h1>
           <div className="cart-list">
-            {cart.map((item, idx) => (
-              <div className="cart-item" key={idx}>
+            {cart.map((item, ind) => (
+              <div className="cart-item">
                 <div className="cart-item-info">
                   <div className="cart-item-brand">{item.product.brand}</div>
                   <div className="cart-item-name">{item.product.name}</div>
@@ -67,7 +65,7 @@ function CartPage() {
                     <div className="label">SIZE:</div>
                     <div className="sizes-list">
                       {item.product.sizes.map(size => (
-                        <button className={`size-btn${item.size === size ? ' selected' : ''}`} onClick={() => handleSizeChange(idx, size)}>
+                        <button className={`size-btn${item.size === size ? ' selected' : ''}`} onClick={() => handleSizeChange(ind, size)}>
                           {size}
                         </button>
                       ))}
@@ -75,20 +73,16 @@ function CartPage() {
                   </div>
                 </div>
                 <div className="quantity-controls">
-                  <button className="quantity-btn" onClick={() => handleQuantityChange(idx, 1)}>+</button>
+                  <button className="quantity-btn" onClick={() => handleQuantityChange(ind, 1)}>+</button>
                   <div className="cart-item-quantity">{item.quantity}</div>
-                  <button className="quantity-btn" onClick={() => handleQuantityChange(idx, -1)}>-</button>
+                  <button className="quantity-btn" onClick={() => handleQuantityChange(ind, -1)}>-</button>
                 </div>
                 <div className="cart-item-image-list">
-                  <img
-                    src={item.product.images[item.imageIdx]}
-                    alt={item.product.name}
-                    className="cart-item-image"
-                  />
+                  <img src={item.product.images[item.imageIdx ? item.imageIdx : 0]} alt={item.product.name} className="cart-item-image"/>
                   {item.product.images.length > 1 && (
                     <div className="carousel-nav">
-                      <button onClick={() => handleImageNav(idx, -1)}>{'<'}</button>
-                      <button onClick={() => handleImageNav(idx, 1)}>{'>'}</button>
+                      <button onClick={() => handleImageNav(ind, -1)}>{'<'}</button>
+                      <button onClick={() => handleImageNav(ind, 1)}>{'>'}</button>
                     </div>
                   )}
                 </div>

@@ -74,8 +74,7 @@ function DetailsPage() {
             <div className="label">SIZE:</div>
             <div className="sizes-list">
               {product.sizes.map(size => (
-                <button className={`size-btn${selectedSize === size ? ' selected' : ''}`} onClick={() => setSelectedSize(size)}
-                >
+                <button className={`size-btn${selectedSize === size ? ' selected' : ''}`} onClick={() => setSelectedSize(size)}>
                   {size}
                 </button>
               ))}

@@ -41,8 +41,8 @@ function MiniCart({ onClose }) {
       </div>
 
       <div className="mini-cart-list">
-        {cart.map((item, idx) => (
-          <div className="mini-cart-item" key={idx}>
+        {cart.map((item, ind) => (
+          <div className="mini-cart-item">
             <div className="mini-cart-item-info">
               <div className="mini-cart-item-brand">{item.product.brand}</div>
               <div className="mini-cart-item-name">{item.product.name}</div>
@@ -51,11 +51,7 @@ function MiniCart({ onClose }) {
                 <div className="mini-label">Size:</div>
                 <div className="mini-sizes-list">
                   {item.product.sizes.map(size => (
-                    <button
-                      key={size}
-                      className={`mini-size-btn${item.size === size ? ' selected' : ''}`}
-                      onClick={() => handleSizeChange(idx, size)}
-                    >
+                    <button className={`mini-size-btn${item.size === size ? ' selected' : ''}`} onClick={() => handleSizeChange(ind, size)}>
                       {size}
                     </button>
                   ))}
@@ -64,13 +60,13 @@ function MiniCart({ onClose }) {
             </div>
 
             <div className="mini-quantity-controls">
-              <button className="mini-quantity-btn" onClick={() => handleQuantityChange(idx, 1)}>+</button>
+              <button className="mini-quantity-btn" onClick={() => handleQuantityChange(ind, 1)}>+</button>
               <div className="mini-cart-quantity">{item.quantity}</div>
-              <button className="mini-quantity-btn" onClick={() => handleQuantityChange(idx, -1)}>-</button>
+              <button className="mini-quantity-btn" onClick={() => handleQuantityChange(ind, -1)}>-</button>
             </div>
 
             <div className="mini-cart-image">
-              <img src={item.product.images[item.imageIdx]} alt={item.product.name} />
+              <img src={item.product.images[0]} alt={item.product.name} />
             </div>
           </div>
         ))}

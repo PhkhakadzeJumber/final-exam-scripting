@@ -11,7 +11,7 @@ function RightSide({ shippingLabel = 'Shipping', shippingValue = 'Calculated at 
     <div className="shipping-info-summary">
       <div className="shipping-summary-items-list">
         {cart.map((item, idx) => (
-          <div className="shipping-summary-item" key={idx}>
+          <div className="shipping-summary-item">
             <div className="shipping-summary-img-qty">
               <img src={item.product.images[0]} alt={item.product.name} className="shipping-summary-img" />
               <span className="shipping-summary-qty">{item.quantity}</span>
