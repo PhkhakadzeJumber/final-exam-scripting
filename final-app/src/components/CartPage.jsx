@@ -20,7 +20,6 @@ function CartPage() {
   };
 
   const handleImageNav = (itemIndex, dir) => {
-    console.log(cart);
     setCart(prevCart => prevCart.map((item, i) => {
       if (i !== itemIndex) 
         return item;
