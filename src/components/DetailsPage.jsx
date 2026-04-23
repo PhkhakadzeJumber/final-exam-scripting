@@ -57,6 +57,7 @@ function DetailsPage() {
             {product.images.map((img, ind) => (
               <img
                 src={img}
+                alt={`${product.name} thumbnail ${ind + 1}`}
                 className={`thumbnail${selectedImageIdx === ind ? ' selected' : ''}`}
                 onClick={() => setSelectedImageIdx(ind)}
                 style={{ border: selectedImageIdx === ind ? '2px solid #5ECE7B' : 'none' }}
