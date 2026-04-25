@@ -2,7 +2,7 @@
 
 ## 🌐 Live Application
 
-**Production URL:** [https://final-exam-scripting-g3xvzjn1p-phkhakadzejumbers-projects.vercel.app](https://final-exam-scripting-g3xvzjn1p-phkhakadzejumbers-projects.vercel.app)
+**Production URL:** [https://final-exam-scripting-g3xvzjn1p-phkhakadzejumbers-projects.vercel.app](https://final-exam-scripting-oh2oxr6it-phkhakadzejumbers-projects.vercel.app)
 
 ---
 
