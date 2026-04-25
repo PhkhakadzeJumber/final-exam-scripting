@@ -8,9 +8,21 @@
 
 ## 📸 Screenshots
 
-> Add screenshots here after taking them:
 > - Screenshot of the hosted live application
-> - Screenshot of the successful GitHub Actions run (green ✅)
+
+<br>
+
+<img width="1918" height="962" alt="devops img2" src="https://github.com/user-attachments/assets/029ff7f4-cae6-4126-8758-a48db4e1e354" />
+
+<br><br>
+
+> - Screenshot of the successful GitHub Actions run (✅)
+
+<br>
+
+<img width="1918" height="863" alt="devops img1" src="https://github.com/user-attachments/assets/4eebc270-77a2-4ba2-be8a-ad678fb51561" />
+
+<br><br>
 
 ---
 
